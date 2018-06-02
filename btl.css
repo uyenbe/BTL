@@ -1,0 +1,16 @@
+body{
+    padding: 0px;
+    
+}
+.container{
+    background-color: lightblue;
+    min-height: 700px;
+    width: 1000px;
+    margin: auto;
+}
+.header{
+    background-color: lawngreen;
+    height: 450px;
+    
+
+}

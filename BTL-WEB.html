@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> BTL-WEB </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="BTL-WEB/CSS_btl/BTL.css" />
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/BTL.js"></script>
+</head>
+<body>
+        <div class="container">
+                <div class="header">
+                    <div class="logo"> <a href="#" title="Marvella Hotel"><img src="BTL-WEB/Anh/ma2.png" title="Marvella Hotel"></a> </div>
+                    <div class="right">
+                        <div class="top_menu">
+                            <ul>
+                                <li> <a href="#" title="English"><img src="BTL-WEB/Anh/my.jpg" title=""></a></li>
+                                <li> <a href="#" title="Tiếng việt"><img src="BTL-WEB/Anh/vn1.jpg" title=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="main_menu" >
+                            <ul>
+                                <li><a href="#" title="Trang chủ">Trang chủ</a></li>
+                                <li><a href="#" title="Phòng">Phòng</a></li>
+                                <li><a href="#" title="Ưu đãi">Ưu đãi</a></li>
+                                <li><a href="#" title="Giới thiệu">Giới thiệu</a></li>
+                                <li class="dropdown"><a href="#" class="dropbtn" title="Dịch vụ khách hàng">Dịch vụ khách hàng</a>
+                                    <div class="dropdown-content">
+                                        <a href="#" title="">Liên hệ</a>
+                                        <a href="#" title="">Hỏi đáp</a>
+                                        <a href="#" title="">Đánh giá</a>
+                                        
+                                    </div>  
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="down-menu">
+                            <ul>
+                                <li><a href="#"><img src="BTL-WEB/Anh/facebook.png" alt=""></a></li>
+                                <li><a href="#"><img src="BTL-WEB/Anh/instar.png" alt=""></a></li>
+                                <li><a href="#"><img src="BTL-WEB/Anh/twitter.png" alt=""></a></li>
+                               <!-- <li><a href="#"><span>1900 1128</span></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="slider">
+                        <img class="slide" src="BTL-WEB/Anh/slider4.jpg" stt ="0" >
+                        <img class="slide" src="BTL-WEB/Anh/slider5.jpg" stt = "1" style="display: none"> <!--display: none là để ấn những thứ muốn ẩn đi -->
+                        <img class="slide" src="BTL-WEB/Anh/slider6.jpg"  stt = "2" style="display: none">
+                        <img class="slide" src="BTL-WEB/Anh/slider10.jpg" stt = "3" style="display: none">
+                        <a href="#" id="prev"><img src="BTL-WEB/Anh/bt1.png" style="display: none"></a>
+                        <a href="#" id="next"><img src="BTL-WEB/Anh/btn2.png" style="display: none"></a>
+                    </div>
+                    <div class="search">
+                        <form action="#">
+                            <label for="local">Chọn điểm đến</label>
+                            <input type="text" id="local" name="Chọn điểm đến" placeholder="Tỉnh, Thành phố,...">
+                            <label for="date1">Ngày đến</label>
+                            <input type="text" id="date1" name="Ngày đến" placeholder="DD/MM/YY">
+                            <label for="date2">Ngày đi</label>
+                            <input type="text" id="date2" name="Ngày đi" placeholder="DD/MM/YY">
+                            <input type="submit" value="Tìm khách sạn">
+
+                        </form>
+                    </div>
+                    <div class="main-content">
+                        <div class="img1"><a href="https://wecheckin.vn/bangkok/nhung-diem-du-lich-hot-nhat-he-2018.html"><img src="BTL-WEB/Anh/bien.jpg" target="_blank" alt="Xác ba lô lên và đi"></a></div>
+                        <div class="img2"><a href="https://phuotbui.org/du-lich-viet-nam-cung-33-mon-an-dac-san/"><img src="BTL-WEB/Anh/chuabiet.jpg" target="_blank" alt="Món ngon mỗi ngày"></a></div>
+                    </div>
+                </div>
+                <div class="footer">
+               <!--   <p>
+                        Địa chỉ:"Số 12, chùa Bộc, Đống Đa, Hà Nội" <br>
+                        Hotline:"0123456789"<br>
+                        Email:"Varvella@gmail.com" <br>
+                        Website: <a href="#" title="Khách sạn Marvella">www.khachsanMarvella.vn </a>
+                    
+                  </p>-->
+                   <p>
+                       <strong>Địa chỉ:</strong>
+                       "Số 12, chùa Bộc, Đống Đa, Hà Nội"
+                   </p>
+                   <div id="trip">
+                       <p>
+                           <strong>Hotline: </strong>
+                           0123456789
+                       </p>
+                       <p>
+                           <strong>Email: </strong>
+                           Varvella@gmail.com
+                       </p>
+                       <p>
+                           <strong>Website: </strong>
+                           <a href="#" title="Khách sạn Marvella">www.khachsanMarvella.vn </a>
+                       </p>
+                       <div class="btn">
+                            <div class="title">
+                                    <span>Đăng ký nhận bản tin</span> <br>
+                            </div>
+                            
+                            <form action="#">
+                               
+                                    <div class="Dangky">
+                                            <label for="Email">Email </label>
+                                            <input type="text" id="Email" name="Email" >
+                                            <input type="submit" value="Đăng ký">
+                                    </div>
+                            </form>
+                       </div>
+                   </div>
+                   
+                </div>
+            </div>
+</body>
+</html>
